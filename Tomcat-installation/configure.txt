@@ -10,7 +10,8 @@ vim /opt/tomcat9/webapps/manager/META-INF/context.xml
           allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" /> 
  -->
 
-vim /opt/tomcat9/conf/tomcat-user.xml  # to add user
+# to add user
+vim /opt/tomcat9/conf/tomcat-user.xml  
 
 	<user username="landmark" password="admin" roles="manager-gui,admin-gui"/>
 	
