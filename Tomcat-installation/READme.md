@@ -21,8 +21,6 @@ sudo hostnamectl set-hostname tomcat
 cd /opt 
 sudo yum install wget nano tree unzip git-all -y
 sudo yum install java-1.8.0-openjdk-devel -y
-# install wget unzip packages.
-sudo yum install wget unzip -y
 ```
 ## Install Tomcat version 9.0.69
 ### Download and extract the tomcat server
